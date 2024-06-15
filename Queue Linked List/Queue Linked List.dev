@@ -1,6 +1,6 @@
 [Project]
 FileName=Queue Linked List.dev
-Name=Queue Linked List
+Name=Project1
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=3
+UnitCount=6
 
 [VersionInfo]
 Major=1
@@ -50,8 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit2]
-FileName=QueueLL.h
+[Unit1]
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -60,7 +60,25 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
+[Unit2]
+FileName=main.o
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit3]
+FileName=Makefile.win
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
 FileName=QueueLL.c
 CompileCpp=0
 Folder=
@@ -70,12 +88,40 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit1]
-FileName=main.c
+[Unit5]
+FileName=QueueLL.h
 CompileCpp=0
 Folder=
 Compile=1
 Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=Queue Linked List.dev
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=QueueLL.h
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+CompileCpp=0
+
+[Unit8]
+FileName=QueueLL.layout
+Folder=
+Compile=0
+Link=0
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
